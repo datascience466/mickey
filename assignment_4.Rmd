@@ -5,7 +5,7 @@ title: |
   | 2022-2023
 author: |
   | jia wei wen
-  | your_email@students.uu.nl
+  | j.w.wen@students.uu.nl
   | http://www.github.com/yourgithubname
 date: April 2023
 urlcolor: purple
@@ -59,7 +59,8 @@ summary
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
 
-Dilayda has the same results as I have.
+0 revolution has a smaller growth min and max, compared to "more than 0 revolution". It might mean that this is more spread than 0 revolution.
+
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
@@ -115,6 +116,7 @@ list(model1, model2, model3, model4) |>
 **Question 3.5**: Edit the code chunk above to remove many statistics from the table, but keep only the number of observations $N$, and the $R^2$ statistic. 
 
 **Question 3.6**: According to this analysis, what is the main driver of economic growth? Why?
+#so according to this analysis, the main driver of economic growth is tradeshare, because when growth changes by 1 tradeshare will increase by either 2.233 or 1.813, while the the other variables have no or negative effects.
 
 **Question 3.7**: In the code chunk below, edit the table such that the cells (including standard errors) corresponding to the variable `treat` have a red background and white text. Make sure to load the `kableExtra` library beforehand.
 
